@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "updated": "2026-11-09",
+  "_note": "Spam list for the 'Auto-block spam' switch in RingVeto. The app downloads this file at most once a day. To update: add verified numbers to 'numbers' (e.g. \"0912345678\") or prefixes to 'prefixes', then INCREASE 'version'. Only add numbers confirmed as spam or scam. / Danh sách số spam cho công tắc 'Tự động chặn spam'. Sửa xong nhớ TĂNG 'version'.",
+  "numbers": [],
+  "prefixes": []
+}

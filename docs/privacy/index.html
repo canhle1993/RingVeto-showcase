@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RingVeto · Privacy Policy</title>
+<meta name="description" content="Privacy policy for the RingVeto call blocking app on Android and iOS.">
+<link rel="icon" href="mark.png">
+<style>
+  :root {
+    --navy: #08152C; --navy-2: #0E2547; --mint: #59E8BE; --mint-deep: #0E9F7E;
+    --bg: #F4F7FB; --card: #FFFFFF; --text: #13213A; --muted: #5B6B82; --line: #E1E7F0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #08152C; --card: #10223F; --text: #E8EEF7; --muted: #A8B5C9; --line: #1C3358; --mint-deep: #59E8BE; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "PingFang SC", "Microsoft YaHei", sans-serif; }
+  header { background: radial-gradient(circle at 105% -10%, rgba(89,232,190,.25), transparent 45%),
+    linear-gradient(135deg, var(--navy), var(--navy-2)); color: #fff; padding: 40px 20px 32px; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 16px; }
+  .brand { display: flex; align-items: center; gap: 12px; font-weight: 800; font-size: 22px; }
+  .brand img { width: 40px; height: 40px; background: var(--navy); border-radius: 11px; padding: 4px; border: 1px solid rgba(89,232,190,.35); }
+  h1 { font-size: 30px; line-height: 1.2; margin: 18px 0 6px; }
+  .meta { color: #C9D6EA; font-size: 14px; }
+  nav.lang { display: flex; gap: 8px; margin-top: 18px; flex-wrap: wrap; }
+  nav.lang a { color: var(--navy); background: var(--mint); text-decoration: none; padding: 6px 14px; border-radius: 999px; font-weight: 600; font-size: 14px; }
+  main { padding: 24px 0 48px; }
+  section.policy { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 8px 24px 20px; margin-bottom: 24px; }
+  h2 { font-size: 22px; margin: 18px 0 4px; }
+  h3 { font-size: 17px; margin: 22px 0 6px; color: var(--mint-deep); }
+  p, li { color: var(--text); }
+  ul { padding-left: 20px; }
+  a { color: var(--mint-deep); }
+  .muted { color: var(--muted); font-size: 14px; }
+  footer { text-align: center; color: var(--muted); font-size: 14px; padding-bottom: 40px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="brand"><img src="mark.png" alt="">RingVeto</div>
+    <h1>Privacy Policy</h1>
+    <div class="meta">Effective 9 November 2026</div>
+    <nav class="lang">
+      <a href="#en">English</a><a href="#vi">Tiếng Việt</a><a href="#zh">简体中文</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+<section class="policy" id="en" lang="en">
+  <h2>English</h2>
+  <p>RingVeto ("the app") identifies and blocks unwanted calls on Android and iOS. It is built to work without an account and without a server of its own. This policy explains what data the app handles.</p>
+
+  <h3>1. Data stored on your device</h3>
+  <ul>
+    <li>Your blocking rules, organisations, allow list and settings.</li>
+    <li>On Android only: a history of calls the app blocked or identified (number, time, label). You can turn this off or clear it in the app.</li>
+    <li>Numbers you searched in the app.</li>
+  </ul>
+  <p>This data never leaves your device. We do not have a server and cannot see it. Uninstalling the app deletes it.</p>
+
+  <h3>2. Data we do not collect</h3>
+  <p>The app does not ask for your phone number, name or email, does not require an account, and does not read your contacts, messages or call log.</p>
+
+  <h3>3. How call blocking works</h3>
+  <p><strong>Android:</strong> when the app holds the "Caller ID &amp; spam" role, Android passes each incoming call number to the app on the device. The app checks it against your rules and replies "allow" or "block". Nothing is sent over the internet.</p>
+  <p><strong>iOS:</strong> the app gives iOS a list of numbers to block or label, through Apple's Call Directory extension. iOS does not tell the app who called.</p>
+
+  <h3>4. Spam list download</h3>
+  <p>When the device is online, the app downloads a public list of known spam numbers from GitHub (<code>raw.githubusercontent.com</code>), at most once a day or when you tap "Auto-block spam". The request does not contain any of your data. GitHub may log technical information such as your IP address, under the <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</p>
+
+  <h3>5. Advertising</h3>
+  <p>The app is free and shows banner ads from Google AdMob. Google may collect and use your device's advertising identifier, IP address and device information to show and measure ads, under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> (see also <a href="https://policies.google.com/technologies/partner-sites">how Google uses information from apps that use its services</a>).</p>
+  <ul>
+    <li>On iOS, the app asks for permission (App Tracking Transparency) before the advertising identifier can be used for tracking. You can change this any time in Settings → Privacy &amp; Security → Tracking.</li>
+    <li>In the EEA and UK, a consent form from Google is shown where required.</li>
+    <li>On Android, you can reset or delete your advertising ID in your phone's settings.</li>
+  </ul>
+
+  <h3>6. Permissions</h3>
+  <ul>
+    <li>Android: call screening role (to block calls), notifications (to show caller names and blocked calls), internet (ads and the spam list).</li>
+    <li>iOS: Call Blocking &amp; Identification (enabled by you in Settings), tracking permission for ads, and file access only when you choose a backup file.</li>
+  </ul>
+
+  <h3>7. Backups</h3>
+  <p>If you export a backup, the app creates a file with your rules and settings and opens your phone's share menu. Where you save or send that file is your choice; the app does not upload it anywhere.</p>
+
+  <h3>8. Children</h3>
+  <p>The app is not directed at children under 13 and does not knowingly collect their personal data.</p>
+
+  <h3>9. Changes and contact</h3>
+  <p>If this policy changes, the new version will be published on this page with a new effective date. Questions: <a href="mailto:aplevancanh1993@gmail.com">aplevancanh1993@gmail.com</a>.</p>
+</section>
+
+<section class="policy" id="vi" lang="vi">
+  <h2>Tiếng Việt</h2>
+  <p>RingVeto ("ứng dụng") nhận diện và chặn cuộc gọi không mong muốn trên Android và iOS. Ứng dụng được thiết kế để hoạt động không cần tài khoản và không có máy chủ riêng. Chính sách này giải thích ứng dụng xử lý những dữ liệu nào.</p>
+
+  <h3>1. Dữ liệu lưu trên máy của bạn</h3>
+  <ul>
+    <li>Quy tắc chặn, danh sách tổ chức, danh sách cho phép và cài đặt.</li>
+    <li>Chỉ trên Android: lịch sử các cuộc gọi ứng dụng đã chặn hoặc nhận diện (số, thời gian, nhãn). Bạn có thể tắt hoặc xoá trong ứng dụng.</li>
+    <li>Các số bạn đã tra trong ứng dụng.</li>
+  </ul>
+  <p>Dữ liệu này không bao giờ rời khỏi máy của bạn. Chúng tôi không có máy chủ và không thể xem được. Gỡ ứng dụng là toàn bộ dữ liệu bị xoá.</p>
+
+  <h3>2. Dữ liệu chúng tôi không thu thập</h3>
+  <p>Ứng dụng không hỏi số điện thoại, tên hay email của bạn, không yêu cầu tài khoản, và không đọc danh bạ, tin nhắn hay nhật ký cuộc gọi.</p>
+
+  <h3>3. Cách chặn cuộc gọi hoạt động</h3>
+  <p><strong>Android:</strong> khi ứng dụng được cấp vai trò "Ứng dụng nhận diện cuộc gọi &amp; spam", Android chuyển số của từng cuộc gọi đến cho ứng dụng ngay trên máy. Ứng dụng so với quy tắc của bạn rồi trả lời "cho qua" hoặc "chặn". Không có gì được gửi qua Internet.</p>
+  <p><strong>iOS:</strong> ứng dụng đưa cho iOS danh sách số cần chặn hoặc gắn nhãn, qua phần mở rộng Call Directory của Apple. iOS không cho ứng dụng biết ai đã gọi.</p>
+
+  <h3>4. Tải danh sách số spam</h3>
+  <p>Khi máy có mạng, ứng dụng tải danh sách công khai các số spam đã biết từ GitHub (<code>raw.githubusercontent.com</code>), tối đa một lần mỗi ngày hoặc khi bạn chạm vào "Tự động chặn spam". Yêu cầu tải không chứa dữ liệu nào của bạn. GitHub có thể ghi lại thông tin kỹ thuật như địa chỉ IP, theo <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">Tuyên bố quyền riêng tư của GitHub</a>.</p>
+
+  <h3>5. Quảng cáo</h3>
+  <p>Ứng dụng miễn phí và hiển thị quảng cáo dạng banner của Google AdMob. Google có thể thu thập và sử dụng mã nhận dạng quảng cáo, địa chỉ IP và thông tin thiết bị để hiển thị và đo lường quảng cáo, theo <a href="https://policies.google.com/privacy?hl=vi">Chính sách quyền riêng tư của Google</a> (xem thêm <a href="https://policies.google.com/technologies/partner-sites?hl=vi">cách Google sử dụng thông tin từ ứng dụng dùng dịch vụ của Google</a>).</p>
+  <ul>
+    <li>Trên iOS, ứng dụng hỏi ý kiến bạn (App Tracking Transparency) trước khi mã quảng cáo được dùng để theo dõi. Bạn có thể đổi bất cứ lúc nào trong Cài đặt → Quyền riêng tư &amp; Bảo mật → Theo dõi.</li>
+    <li>Ở Khu vực Kinh tế Châu Âu và Vương quốc Anh, biểu mẫu đồng ý của Google sẽ hiện khi cần.</li>
+    <li>Trên Android, bạn có thể đặt lại hoặc xoá mã quảng cáo trong cài đặt của máy.</li>
+  </ul>
+
+  <h3>6. Quyền ứng dụng sử dụng</h3>
+  <ul>
+    <li>Android: vai trò chặn cuộc gọi, thông báo (hiện tên người gọi và cuộc gọi đã chặn), Internet (quảng cáo và danh sách spam).</li>
+    <li>iOS: Chặn &amp; Nhận diện cuộc gọi (do bạn bật trong Cài đặt), quyền theo dõi cho quảng cáo, và quyền truy cập file chỉ khi bạn chọn file sao lưu.</li>
+  </ul>
+
+  <h3>7. Sao lưu</h3>
+  <p>Khi bạn xuất bản sao lưu, ứng dụng tạo một file chứa quy tắc và cài đặt rồi mở bảng chia sẻ của máy. Lưu hay gửi file đó đi đâu là do bạn chọn; ứng dụng không tải file lên đâu cả.</p>
+
+  <h3>8. Trẻ em</h3>
+  <p>Ứng dụng không dành cho trẻ em dưới 13 tuổi và không chủ ý thu thập dữ liệu cá nhân của trẻ em.</p>
+
+  <h3>9. Thay đổi và liên hệ</h3>
+  <p>Nếu chính sách thay đổi, bản mới sẽ được đăng trên trang này kèm ngày hiệu lực mới. Mọi câu hỏi xin gửi về: <a href="mailto:aplevancanh1993@gmail.com">aplevancanh1993@gmail.com</a>.</p>
+</section>
+
+<section class="policy" id="zh" lang="zh-Hans">
+  <h2>简体中文</h2>
+  <p>RingVeto（“本应用”）可在 Android 和 iOS 上识别并拦截骚扰来电。本应用无需账户，也没有自己的服务器。本政策说明本应用会处理哪些数据。</p>
+
+  <h3>1. 保存在您设备上的数据</h3>
+  <ul>
+    <li>您的拦截规则、机构列表、允许名单和设置。</li>
+    <li>仅限 Android：本应用拦截或识别过的来电记录（号码、时间、标签）。您可以在应用中关闭或清除。</li>
+    <li>您在应用中搜索过的号码。</li>
+  </ul>
+  <p>这些数据不会离开您的设备。我们没有服务器，也无法查看这些数据。卸载应用即会删除全部数据。</p>
+
+  <h3>2. 我们不收集的数据</h3>
+  <p>本应用不会索取您的手机号码、姓名或邮箱，无需账户，也不会读取您的通讯录、短信或通话记录。</p>
+
+  <h3>3. 来电拦截的工作方式</h3>
+  <p><strong>Android：</strong>本应用获得“来电显示和骚扰电话”角色后，Android 会在设备上将每个来电号码交给本应用。本应用按您的规则检查后回复“放行”或“拦截”，不会通过互联网发送任何内容。</p>
+  <p><strong>iOS：</strong>本应用通过 Apple 的 Call Directory 扩展向 iOS 提供要拦截或标注的号码列表。iOS 不会告诉本应用谁来过电话。</p>
+
+  <h3>4. 下载骚扰号码名单</h3>
+  <p>设备联网时，本应用会从 GitHub（<code>raw.githubusercontent.com</code>）下载公开的已知骚扰号码名单，每天最多一次，或在您点按“自动拦截骚扰”时下载。该请求不包含您的任何数据。GitHub 可能会根据 <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub 隐私声明</a>记录 IP 地址等技术信息。</p>
+
+  <h3>5. 广告</h3>
+  <p>本应用免费提供，并展示 Google AdMob 横幅广告。Google 可能会根据 <a href="https://policies.google.com/privacy?hl=zh-CN">Google 隐私权政策</a>收集和使用设备的广告标识符、IP 地址和设备信息，用于展示和衡量广告（另见 <a href="https://policies.google.com/technologies/partner-sites?hl=zh-CN">Google 如何使用来自使用其服务的应用的信息</a>）。</p>
+  <ul>
+    <li>在 iOS 上，本应用会先征求您的许可（App 跟踪透明度），然后才可将广告标识符用于跟踪。您可以随时在“设置 → 隐私与安全性 → 跟踪”中更改。</li>
+    <li>在欧洲经济区和英国，必要时会显示 Google 的同意表单。</li>
+    <li>在 Android 上，您可以在手机设置中重置或删除广告 ID。</li>
+  </ul>
+
+  <h3>6. 使用的权限</h3>
+  <ul>
+    <li>Android：来电筛选角色（拦截来电）、通知（显示来电者名称和已拦截来电）、互联网（广告和骚扰号码名单）。</li>
+    <li>iOS：来电阻止与身份识别（由您在设置中开启）、用于广告的跟踪许可，以及仅在您选择备份文件时的文件访问。</li>
+  </ul>
+
+  <h3>7. 备份</h3>
+  <p>导出备份时，本应用会创建一个包含规则和设置的文件，并打开手机的分享菜单。文件保存或发送到哪里由您决定；本应用不会上传该文件。</p>
+
+  <h3>8. 儿童</h3>
+  <p>本应用不面向 13 岁以下儿童，也不会故意收集儿童的个人数据。</p>
+
+  <h3>9. 变更与联系</h3>
+  <p>如本政策有变更，新版本将发布在本页面并注明新的生效日期。如有疑问，请联系：<a href="mailto:aplevancanh1993@gmail.com">aplevancanh1993@gmail.com</a>。</p>
+</section>
+
+</main>
+<footer>© 2026 Lê Văn Cảnh · <a href="https://github.com/canhle1993/RingVeto-showcase">github.com/canhle1993/RingVeto-showcase</a></footer>
+</body>
+</html>
